@@ -12,11 +12,17 @@
   <body>
 
       <header>
-        <ul class="navbar" style="list-style-type:none;">
-          <li><a href="casestudies.html">UX Case Studies</a></li>
-          <li><a href="aboutme.html">About Me</a></li>
+        <ul class="navbar">
+          <li><a href="index.html">UX Case Studies</a></li>
+          <li><a href="aboutMe.html">About Me</a></li>
           <li><a href="mailto:jragl@mac.com">Contact Me</a></li>
         </ul>
+        <div class="hamburger">
+<!-- I need some help with how to create an overlay with my hamburger -->
+          <a href="menu">
+            <img src="images/menuHamburger.png" alt="Menu">
+          </a>
+        </div>
         <div class="logo-and-type">
           <img src="images/jr-logo-white.svg" alt="Jeff Ragland's Logo">
             <h1>JEFF RAGLAND</h1>
@@ -24,26 +30,40 @@
         </div>
     </header>
 
+    <div class="currentPage">
+      <h5>Case Studies</h5>
+    </div>
+
     <section class="container">
       <div class="featuredProject">
-        <img src="images/busyBusScreenShot.png" alt="Featured Project - BusyBus" width="150" height="318">
+        <a href="caseStudyBusyBus.html">
+        <img src="images/busyBusScreenShot.png" alt="Featured Project - BusyBus">
         <h2>Featured Case Study - BusyBus</h2>
         <p>A mobile app focused on using public transportation in a major city. The major problem needing to be solved was identifying the next arriving bus and how much time a rider had to get there. Riders were complaining most about the Washington & State bus stop.</p>
+        </a>
       </div>
-      <div class="project1">
-        <img src="images/projectBusyBus.png" alt="Project 1 - BusyBus">
-        <h2>BusyBus</h2>
-        <p>A mobile app focused on using public transportation in a major city.</p>
-      </div>
-      <div class="project2">
-        <img src="images/projectCumulus.png" alt="Project 2 - Cumulus">
-        <h2>Cumulus</h2>
-        <p>A desktop and mobile app for a fictitious cloud storage service.</p>
-      </div>
-      <div class="project3">
-        <img src="images/projectComingSoon.png" alt="Project 3 - Coming Soon!">
-        <h2>Coming Soon!</h2>
-        <p>Coming Soon!</p>
+      <div class="allProjects">
+          <div class="project 1">
+            <a href="caseStudyBusyBus.html">
+            <img src="images/projectBusyBus.png" alt="Project 1 - BusyBus">
+            <h2>BusyBus</h2>
+            <p>A mobile app focused on using public transportation in a major city.</p>
+            </a>
+          </div>
+          <div class="project 2">
+            <a href="caseStudyCumulus.html">
+            <img src="images/projectCumulus.png" alt="Project 2 - Cumulus">
+            <h2>Cumulus</h2>
+            <p>A desktop and mobile app for a fictitious cloud storage service.</p>
+            </a>
+          </div>
+          <div class="project 3">
+            <a href="caseStudyComingSoon.html">
+            <img src="images/projectComingSoon.png" alt="Project 3 - Coming Soon!">
+            <h2>Coming Soon!</h2>
+            <p>Coming Soon!</p>
+            </a>
+          </div>
       </div>
     </section>
 
